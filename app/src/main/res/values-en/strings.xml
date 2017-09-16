@@ -5,4 +5,10 @@
     <string name="operaciones">operations</string>
     <string name="calcular">calculate</string>
     <string name="titulo">CALCULATOR</string>
+    <string name="sumar">Additions</string>
+    <string name="restar">Substractions</string>
+    <string name="multiplicar">Multiplicacion</string>
+    <string name="dividir">Division</string>
+    <string name="primer_numero">Fisrt Number</string>
+    <string name="segundo_numero">Second Number</string>
 </resources>
