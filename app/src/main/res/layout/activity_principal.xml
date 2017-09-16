@@ -63,6 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="calcular"
                 android:text="@string/calcular" />
 
             <Button
@@ -70,6 +71,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="borrar"
                 android:text="@string/borrar" />
         </LinearLayout>
 
@@ -77,6 +79,9 @@
             android:id="@+id/lblResultado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.05" />
+            android:layout_weight="0.05"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
